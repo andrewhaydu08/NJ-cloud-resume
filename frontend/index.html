@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Mr. Haydu's Resume</title>
+	<link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+	<!-- partial:index.partial.html -->
+	<!DOCTYPE html>
+	<html lang="en">
+
+	<head>
+		<title></title>
+
+		<!-- Meta -->
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="">
+		<link rel="shortcut icon" href="favicon.ico">
+
+		<!-- Google Fonts -->
+		<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900" rel="stylesheet">
+
+		<!-- FontAwesome JS-->
+		<script defer src="assets/fontawesome/js/all.min.js"></script>
+
+		<!-- Theme CSS -->
+		<link id="theme-style" rel="stylesheet" href="assets/css/devresume.css">
+
+	</head>
+	<script>
+		fetch('https://rdro72xk27.execute-api.us-east-1.amazonaws.com/Prod/get')
+			.then(response => response.json())
+			.then((data) => {
+				document.getElementById('replaceme').innerText = data.visit_count
+				console.log(data)
+			})
+	</script>
+
+	<body>
+
+		<div class="main-wrapper">
+			<div class="container px-3 px-lg-5">
+				<article class="resume-wrapper mx-auto theme-bg-light p-5 mb-5 my-5 shadow-lg">
+
+					<div class="resume-header">
+						<div class="row align-items-center">
+							<div class="resume-title col-12 col-md-6 col-lg-8 col-xl-9">
+								<h2 class="resume-name mb-0 text-uppercase">Andrew Haydu</h2>
+								<div class="resume-tagline mb-3 mb-md-0">Cloud Engineer</div>
+							</div><!--//resume-title-->
+							<div class="resume-contact col-12 col-md-6 col-lg-4 col-xl-3">
+								<ul class="list-unstyled mb-0">
+									<li class="mb-2"><i class="fas fa-phone-square fa-fw fa-lg me-2 "></i><a
+											class="resume-link" href="tel:#">216-421-6576</a></li>
+									<li class="mb-2"><i class="fas fa-envelope-square fa-fw fa-lg me-2"></i><a
+											class="resume-link" href="mailto:#">andrewhaydu08@yahoo.com</a></li>
+									<li class="mb-2"><i class="fas fa-globe fa-fw fa-lg me-2"></i><a href=""
+											https://mrhaydusresume.com"target="_blank">mrhaydusresume.com</a></li>
+									<li class="mb-0"><i
+											class="fas fa-map-marker-alt fa-fw fa-lg me-2"></i>Fayetteville,GA</li>
+								</ul>
+							</div><!--//resume-contact-->
+						</div><!--//row-->
+
+					</div><!--//resume-header-->
+					<hr>
+					<div class="resume-intro py-3">
+						<div class="row align-items-center">
+
+							<div class="col text-start">
+								<p class="mb-0">A self motivated ambitious results driven professional seeking to
+									leverage 16+ years of being team player and exceptional communication skills in the
+									fast paced world of AWS Cloud. Proven ability to build long-term realtionships,
+									undestand client needs and to find solutions to ensure customer satisfaction. </p>
+							</div><!--//col-->
+						</div>
+					</div><!--//resume-intro-->
+					<hr>
+					<div class="resume-body">
+						<div class="row">
+							<div class="resume-main col-12 col-lg-8 col-xl-9   pe-0   pe-lg-5">
+								<section class="work-section py-3">
+									<h3 class="text-uppercase resume-section-heading mb-4">Work Experiences</h3>
+									<div class="item mb-3">
+										<div class="item-heading row align-items-center mb-2">
+											<h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">CNC Machinist
+											</h4>
+											<div
+												class="item-meta col-12 col-md-6 col-lg-4 text-muted text-start text-md-end">
+												Pyrotek | October 2021-Present</div>
+
+										</div>
+										<div class="item-content">
+											<p>Set up and operate/run Okuma Simulturn LU300 Twin Turret CNC Lathe.</p>
+											<ul class="resume-list">
+												<li>Use calipers to check dimensions.</li>
+												<li>Use micrometers to check dimensions.</li>
+												<li>Use thread gages and depth micrometers to verify dimesions.</li>
+											</ul>
+										</div>
+									</div><!--//item-->
+									<div class="item mb-3">
+										<div class="item-heading row align-items-center mb-2">
+											<h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">CNC Machinist
+											</h4>
+											<div
+												class="item-meta col-12 col-md-6 col-lg-4 text-muted text-start text-md-end">
+												Kennametal | August 2021 - October 2021</div>
+
+										</div>
+										<div class="item-content">
+											<p>Set up and operate/run Mazak Intergrex 200-IV Lathe</p>
+											<ul class="resume-list">
+												<li>Use Calipers to check dimensions.</li>
+												<li>Use Micrometers to check dimensions</li>
+												<li>Use thread gages and comaprators to check angle of parts.</li>
+											</ul>
+										</div>
+									</div><!--//item-->
+									<div class="item mb-3">
+										<div class="item-heading row align-items-center mb-2">
+											<h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">CNC Machinist
+											</h4>
+											<div
+												class="item-meta col-12 col-md-6 col-lg-4 text-muted text-start text-md-end">
+												Plethora | Sept 2020 - April 2021</div>
+
+										</div>
+										<div class="item-content">
+											<p>Set and operate/run HAAS VF7 Mills and HAAS Mini Mills.</p>
+											<ul class="resume-list">
+												<li>Use Calipers to check dimensions.</li>
+												<li>Use Micrometers to check dimensions</li>
+												<li>Use thread gages and comaprators to check angle of parts.</li>
+												<li>Use Solidworks CAD Software to verify dimensions are correct.</li>
+											</ul>
+										</div>
+									</div><!--//item-->
+									<div class="item">
+										<div class="item-heading row align-items-center mb-2">
+											<h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">CNC Machnist
+											</h4>
+											<div
+												class="item-meta col-12 col-md-6 col-lg-4 text-muted text-start text-md-end">
+												Nor-Ral | April 2020 - August 2022</div>
+
+										</div>
+										<div class="item-content">
+											<p>Set up and operate HAAS VF7.</p>
+											<ul class="resume-list">
+												<li>Use Calipers to check dimensions.</li>
+												<li>Use Micrometers to check dimensions</li>
+												<li>Use thread gages and comaprators to check angle of parts.</li>
+											</ul>
+										</div>
+									</div><!--//item-->
+									<div class="item">
+										<div class="item-heading row align-items-center mb-2">
+											<h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">CNC Machinist
+											</h4>
+											<div
+												class="item-meta col-12 col-md-6 col-lg-4 text-muted text-start text-md-end">
+												Dupont | April 2013 - August 2020</div>
+
+										</div>
+										<div class="item-content">
+											<p>Set up and operate/run Hardinge Conquest Lathe, Accu-turn Lathe and HAAS
+												ST-10 Lathe</p>
+											<ul class="resume-list">
+												<li>Use Calipers to check dimensions.</li>
+												<li>Use Micrometers to check dimensions</li>
+												<li>Use thread gages and comaprators to check angle of parts.</li>
+												<li>Hone parts after completing.</li>
+											</ul>
+										</div>
+									</div><!--//item-->
+									<div class="item">
+										<div class="item-heading row align-items-center mb-2">
+											<h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0"></h4>
+											<div
+												class="item-meta col-12 col-md-6 col-lg-4 text-muted text-start text-md-end">
+											</div>
+
+										</div>
+										<div class="item-content">
+											<p></p>
+										</div>
+									</div><!--//item-->
+
+								</section><!--//work-section-->
+
+
+								<section class="project-section py-3">
+									<h3 class="text-uppercase resume-section-heading mb-4">Projects</h3>
+									<div class="item mb-3">
+										<div class="item-heading row align-items-center mb-2">
+											<h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">Cloud Resume
+												Challenge</h4>
+											<div
+												class="item-meta col-12 col-md-6 col-lg-4 text-muted text-start text-md-end">
+												Completed November 2022</div>
+
+										</div>
+										<div class="item-content">
+											<p>The Cloud Resume Challenge is a 16 step resume project which helps build
+												and demonstrate skills fundamental to pursuing a career as an AWS Cloud
+												Engineer. The challenge consists of learning how to host a static
+												website using HTML,CSS and JavaScript with Amazon S3, Amazon Route 53,
+												DynamoDB, AWS lambda using python for your coding and using Github
+												workflows for your CI/CD front end and back end to create your Resume.
+												<a href="https://cloudresumechallenge.dev"
+													target="_blank">cloudresuemchallenge</a>
+
+										</div>
+									</div><!--//item-->
+									<div class="item">
+										<div class="item-heading row align-items-center mb-2">
+											<h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0"></h4>
+											<div
+												class="item-meta col-12 col-md-6 col-lg-4 text-muted text-start text-md-end">
+											</div>
+
+										</div>
+										<div class="item-content">
+											<p></p>
+
+										</div>
+									</div><!--//item-->
+									<div class="item">
+										<div class="item-heading row align-items-center mb-2">
+											<h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0"></h4>
+											<div
+												class="item-meta col-12 col-md-6 col-lg-4 text-muted text-start text-md-end">
+											</div>
+
+										</div>
+										<div class="item-content">
+											<p></p>
+
+										</div>
+									</div><!--//item-->
+								</section><!--//project-section-->
+							</div><!--//resume-main-->
+							<aside class="resume-aside col-12 col-lg-4 col-xl-3 px-lg-4 pb-lg-4">
+								<section class="skills-section py-3">
+									<h3 class="text-uppercase resume-section-heading mb-4">Skills</h3>
+									<div class="item">
+										<h4 class="item-title">Technical</h4>
+										<ul class="list-unstyled resume-skills-list">
+											<li class="mb-2">S3</li>
+											<li class="mb-2">DynamoDB
+											<li>
+											<li class="mb-2">Amazon Cloudfront</li>
+											<li class="mb-2">Amazon Route 53</li>
+											<li class="mb-2">CI/CD Pipelines</li>
+											<li class="mb-2">Design and implement AWS architectureS</li>
+											<li></li>
+										</ul>
+									</div><!--//item-->
+									<div class="item">
+										<h4 class="item-title">Professional</h4>
+										<ul class="list-unstyled resume-skills-list">
+											<li class="mb-2">Effective communication</li>
+											<li class="mb-2">Team player
+											<li>
+											<li class="mb-2">Strong problem solver</li>
+											<li>Patient</li>
+										</ul>
+									</div><!--//item-->
+								</section><!--//skills-section-->
+								<section class="education-section py-3">
+									<h3 class="text-uppercase resume-section-heading mb-4">Education</h3>
+									<ul class="list-unstyled resume-education-list">
+										<li class="mb-3">
+											<div class="resume-degree font-weight-bold">Go Cloud Careers</div>
+											<div class="resume-degree-org text-muted">Cloud Architect Career Deveoplment
+												Program</div>
+											<div class="resume-degree-time text-muted">Oct. 2022-Present</div>
+										</li>
+										<li>
+											<div class="resume-degree font-weight-bold">Digital Cloud Training</div>
+											<div class="resume-degree-org text-muted">AWS Certified Cloud Practitioner
+												Exam Training</div>
+											<div class="resume-degree-time text-muted">Oct. 2021- April 2022</div>
+										</li>
+									</ul>
+								</section><!--//education-section-->
+								<section class="education-section py-3">
+									<h3 class="text-uppercase resume-section-heading mb-4">Certifications</h3>
+									<ul class="list-unstyled resume-awards-list">
+										<li class="mb-3">
+											<div class="font-weight-bold">AWS Certified Cloud Practioner</div>
+											<div class="text-muted">May 28, 2022</div>
+										</li>
+										<li>
+											<div class="font-weight-bold">Precison Machine Technology Certified</div>
+											<div class="text-muted">August 2006</div>
+										</li>
+									</ul>
+								</section><!--//education-section-->
+								<section class="skills-section py-3">
+									<h3 class="text-uppercase resume-section-heading mb-4">Languages</h3>
+									<ul class="list-unstyled resume-lang-list">
+										<li class="mb-2">English <span class="text-muted">(Native)</span></li>
+										<li><span class="text-muted"></span></li>
+									</ul>
+								</section><!--//certificates-section-->
+								<section class="skills-section py-3">
+									<h3 class="text-uppercase resume-section-heading mb-4">Interests</h3>
+									<ul class="list-unstyled resume-interests-list mb-0">
+										<li class="mb-2">Learning to code</li>
+										<li class="mb-2">Studying AWS Architure</li>
+										<li class="mb-2"></li>
+										<li></li>
+									</ul>
+								</section><!--//certificates-section-->
+
+							</aside><!--//resume-aside-->
+						</div><!--//row-->
+					</div><!--//resume-body-->
+					<hr>
+					<div class="resume-footer text-center">
+						<ul class="resume-social-list list-inline mx-auto mb-0 d-inline-block text-muted">
+							<li class="list-inline-item mb-lg-0 me-3"><a
+									href="https://github.com/andrewhaydu08/practice-resume-challenge.git"
+									target="_blank"><i class="fab fa-github-square fa-2x me-2"
+										data-fa-transform="down-4"></i><span
+										class="d-none d-lg-inline-block text-muted">github.com</span></a></li>
+							<li class="list-inline-item mb-lg-0 me-3"><a
+									href="https://www.linkedin.com/in/andrew-haydu/" target="_blank"><i
+										class="fab fa-linkedin fa-2x me-2" data-fa-transform="down-4"></i><span
+										class="d-none d-lg-inline-block text-muted">www.linkedin.com</span></a></li>
+						</ul>
+						<p>
+							Visitors:
+							<span id="replaceme" />
+						</p>
+					</div><!--//resume-footer-->
+				</article>
+
+			</div><!--//container-->
+
+
+
+		</div><!--//main-wrapper-->
+
+
+	</body>
+
+	</html>
+	<!-- partial -->
+
+</body>
+
+</html>

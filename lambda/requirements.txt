@@ -1,0 +1,5 @@
+boto3
+pytest
+moto
+pytest_mock
+botocore

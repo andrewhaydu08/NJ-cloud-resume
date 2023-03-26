@@ -101,7 +101,7 @@ Resources:
       Policies:
          - DynamoDBCrudPolicy:
              TableName: cloud-resume-challnege
-      CodeUri: lambtest
+      CodeUri: lambda
       Handler: app.lambda_handler
       Runtime: python3.9
       Architectures:
